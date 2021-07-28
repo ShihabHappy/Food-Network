@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
 }
 .color{
     color: #fba24fee;
@@ -9,7 +10,7 @@ h1{
 }
 .flexible-container{
     display: flex;
-    margin-bottom: 10%;
+    margin-bottom: 7%;
 }
 .half-width{
     width: 40%;
@@ -18,6 +19,11 @@ h1{
 .half-width img{
     width: 100%;
     padding-right:10% ;
+}
+.about-me{
+    width: 35%;
+    padding-top: 7%;
+    margin-left: 15%;
 }
 .link-button{
     text-decoration: none;
@@ -31,6 +37,7 @@ h1{
 }
 .text-align{
     text-align: center;
+    color: gray;
 }
 .recipie-item{
     width: 30%;
@@ -41,9 +48,28 @@ h1{
 }
 .img{
     width: 90%;
-    border-radius: 10px;
     padding: 5%;
 }
-footer h1{
-    text-align: center;
+.display{
+    display: inline-flex;
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    width: 96.5%;
+    box-shadow:10px 10px 20px gray ;
+}
+#youtube-width{
+    margin-left: 10%;
+}
+#Instagram-width{
+    margin-left: 20% ;
+}
+#like-width{
+    margin-left: 25%;
+}
+footer{
+    background-color: black;
+}
+.white{
+    color: gray;
 }
